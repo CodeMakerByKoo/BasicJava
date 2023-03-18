@@ -9,6 +9,9 @@ public class BreakStatement {
             System.out.println(i);
 
             if(i==6){
+                //To break the current flow of the program and
+                //transfer the control to the next statement outside
+                //a loop or switch statement
                 break;
             }
         }

@@ -10,7 +10,8 @@ public class ContinueStatement {
 
                 if(j==4){
                     //To skip the specific part of the loop and
-                    // jumps to the next iteration of the loop immediately
+                    //jumps to the next iteration of the loop immediately
+                    //by skipping number "4" and jumping to the next iteration of number "5"
                     continue;
                 }
 

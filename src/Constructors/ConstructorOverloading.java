@@ -39,11 +39,11 @@ public class ConstructorOverloading { // Java program to overload constructors
 
     public static void main(String[] args) {
 
-        ConstructorOverloading over1 = new ConstructorOverloading(1,"test1");
-        ConstructorOverloading over2 = new ConstructorOverloading(2,"test2",3);
+        ConstructorOverloading over1 = new ConstructorOverloading(1,"test1"); // Creating an object for two argument constructor
+        ConstructorOverloading over2 = new ConstructorOverloading(2,"test2",3); // Creating an object for three argument constructor
 
-        over1.display();
-        over2.display();
+        over1.display(); // Calling first overloaded Constructor
+        over2.display(); // Calling second overloaded Constructor
 
     }
 }

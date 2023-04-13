@@ -69,3 +69,29 @@ public class JavaStaticMethod { // Test class to create and display the values o
 //    }
 //
 //  }
+
+// Restrictions for the static method
+//
+// There are two main restrictions for the static method. They are:
+//
+// 1) The static method can not use non static data member or call non-static method directly.
+// 2) this and super cannot be used in static context.
+
+// class A{
+//
+//  int a = 40; // Non-static
+//
+//  public static void main(String args[]){
+//
+//   System.out.println(a);
+//
+//  }
+//
+// }
+// Output:Compile Time Error
+//
+// Q) Why is the Java main method static?
+//
+// Ans) It is because the object is not required to call a static method.
+//      If it were a non-static method, JVM creates an object first then call main()
+//      method that will lead the problem of extra memory allocation.
